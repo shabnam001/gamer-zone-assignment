@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*shared styles*/
+.primary-color{
+    color: #FF42A5;
+}
+/*nav styles starts*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    padding: 36px 240px;
+}
+.brand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+ 
+.menu li{
+    list-style: none;
+}
+.menu li a{
+    text-decoration: none;
+}
+.follow-box{
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 16px 24px;
+}
+.follow-box ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+/*nav styles ends*/
