@@ -301,4 +301,28 @@ nav h1{
     gap: 30px;
     padding-top: 70px;
 }
+.policy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 70px;
+}
+.policy li{
+    list-style: none;
+}
+.policy li a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+.copy{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 25px;
+}
 /*footer styles ends*/
