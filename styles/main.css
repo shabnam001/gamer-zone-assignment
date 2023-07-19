@@ -150,7 +150,6 @@ nav h1{
     margin-bottom: 24px;
 }
 .gamer-title{
-    text-align: right;
     font-size: 48px;
     font-weight: 700;
     color: #FF42A5;
@@ -158,26 +157,26 @@ nav h1{
 }
 .gamer-description{
     color: #534C64;
-    text-align: right;
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 32px;
 }
 .purpose-text{
     color: #534C64;
-    text-align: right;
     font-size: 24px;
     font-weight: 500;
 }
 .unleash-text{
     color: #534C64;
-    text-align: right;
     font-size: 32px;
     font-weight: 700;
 
 }
 /*we are gamer ends*/
 /*online-game style starts*/
+.online-game-container{
+    padding: 80px 120px
+}
 .online-game-title{
     color: #0B0223;
     text-align: center;
@@ -199,7 +198,6 @@ nav h1{
     display: flex;
     justify-content: center;
     gap: 24px;
-    padding: 48px 240px 90px 240px;
 }
 .card{
     width: 342px;
@@ -331,8 +329,6 @@ nav h1{
 /*main section style start*/
 /*footer styles starts*/
 .footer-container{
-    width: 1920px;
-    height: 636px;
     background: #0B0223;
     margin-top: 50px;
 
@@ -395,5 +391,74 @@ nav h1{
     font-size: 16px;
     font-weight: 500;
     padding-top: 25px;
+    padding-bottom: 40px;
 }
 /*footer styles ends*/
+
+/*mobile styles ends*/
+@media screen and (max-width: 576px) {
+nav {
+    flex-direction: column;
+    padding: 48px 40px;
+}
+.menu {
+    padding: 20px 0;
+    flex-direction: column;
+    }
+.banner-container {
+    padding: 20px 0;
+    flex-direction: column;
+}
+
+.banner-content{
+    width: 100%;
+}
+.button {
+    display: flex;
+    gap: 20px;
+}
+.banner-img{
+    width: 100%;
+}
+.gamer-container {
+    padding: 20px 0;
+    flex-direction: column;
+}
+.gamer-img{
+    width: 100%;
+}
+.gamer-content{
+    text-align: center;
+}     
+.card-container{
+    flex-direction: column;
+}
+.play-instantly-container{
+    padding: 55px 40px;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+.play-instantly-content {
+    padding-right: 0;
+    padding-bottom: 100px;
+    text-align: center;
+  }
+
+  .game-button-container {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 55px 20px;
+  }
+
+  .services{
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 55px 40px;
+  }
+  .policy{
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 55px 40px;
+  }
+}
