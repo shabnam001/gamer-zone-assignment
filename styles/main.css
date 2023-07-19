@@ -212,7 +212,9 @@ nav h1{
 /*play instantly style start*/
 .play-instantly-container{
     display: flex;
-    padding: 90px 240px 90px 440px;
+    padding: 90px 240px 0 440px;
+    background-color: antiquewhite;
+    margin-bottom: 30px;
 }
 .play-instantly-title{
     color: #0B0223;
@@ -254,7 +256,6 @@ nav h1{
     background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
     width: 1920px;
     height: 821px;
-    flex-shrink: 0;
 }
 /*career section styles ends*/
 
@@ -266,5 +267,31 @@ nav h1{
     background: #0B0223;
     margin-top: 50px;
 
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+}
+.logo-title{
+    color: #FFF;
+}
+.services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 70px;
+    
+}
+.services li{
+    list-style: none;
+}
+.services li a{
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
 }
 /*footer styles ends*/
