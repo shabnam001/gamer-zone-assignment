@@ -57,14 +57,17 @@ nav h1{
 /*banner section styles start*/
 .banner-container{
     display: flex;
-    
+    padding: 0 240px;
+    align-items: center;    
 }
-.banner-content{
+.banner-content {
     background-image: url("../images/background.png");
-    width: 901px;
-    height: 700px;
-    padding: 148px 309px 148px 244px;
-}
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+  }
 .banner-title{
     color: #0B0223;
     text-align: center;
@@ -77,10 +80,17 @@ nav h1{
     font-size: 95px;
     font-weight: 800;
 }
+.banner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 10px;
+}
 .banner{
     display: flex;
     justify-content: center;
-    
+    gap: 12px;
 }
 .banner p{
     color: #534C64;
@@ -114,47 +124,43 @@ nav h1{
     gap: 10px;
 }
 .banner-img{
-    width: 711px;
-    height: 446px;
-    padding-right: 240px;
+    width: 50%;
 }
 /*banner section styles end*/
 /*main section style start*/
 /*we are gamer starts*/
 .we-are-gamer{
-    width: 1920px;
-    height: 600px;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
     
 }
 .gamer-img{
     width: 868px;
     height: 489px;
-    padding: 55px 0 55px 240px;
 }
 .gamer-container{
     display: flex;
+    padding: 55px 240px;
 }
+.gamer-container > * { flex: 1; }
 .gamer-content{
-    padding: 95px 240px 95px 20px;
-    gap: 20px;
+    text-align: right;
 }
 .gamer-button{
-    align-items: flex-start;
-    padding-bottom: 24px;
-    
+    margin-bottom: 24px;
 }
 .gamer-title{
     text-align: right;
     font-size: 48px;
     font-weight: 700;
     color: #FF42A5;
+    margin-bottom: 24px;
 }
 .gamer-description{
     color: #534C64;
     text-align: right;
     font-size: 18px;
     font-weight: 400;
+    margin-bottom: 32px;
 }
 .purpose-text{
     color: #534C64;
@@ -212,28 +218,27 @@ nav h1{
 /*play instantly style start*/
 .play-instantly-container{
     display: flex;
-    padding: 90px 240px 0 440px;
-    background-color: antiquewhite;
-    margin-bottom: 30px;
+    padding: 55px 240px;
+    align-items: center;
+    justify-content: end;
+}
+.play-instantly-content{
+    padding-right: 250px;
+    padding-bottom: 300px;
+    text-align: right;
 }
 .play-instantly-title{
     color: #0B0223;
-    text-align: center;
     font-size: 48px;
     font-weight: 700;
-    margin-top: 120px;  
+    margin-bottom: 24px;
 }
 .play-instantly-description{
     color: #534C64;
-    text-align: center;
     font-size: 18px;
     font-weight: 400;
-    padding-top: 24px;
 }
-.play-instantly-content{
-    padding-right: 200px;
-    padding-top: 90px;
-}
+
 .play-instantly-1{
     width: 635px;
     height: 650px;
@@ -260,9 +265,12 @@ nav h1{
 /*career section styles ends*/
 /*button section styles starts*/
 .game-button-container{
-    width: 1920px;
-    height: 427px;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 55px 240px;
 
 }
 .game-button{
@@ -274,14 +282,17 @@ nav h1{
     border-radius: 50px;
     background: #FFF;
     text-align: center;
-    padding-left: 10px ;
-
+    border: 1px solid white;
+    color: #0B0223;
 }
 .game-button-text{
-    color: #0B0223;
     font-size: 20px;
     font-weight: 600;
 }
+.game-button:hover {
+    border: 1px solid pink;
+    color: #FF42A5 ;
+  }
 /*button section styles ends*/
 
 /*main section style start*/
@@ -296,6 +307,7 @@ nav h1{
 .logo{
     display: flex;
     justify-content: center;
+    align-items: center;
     padding-top: 120px;
 }
 .logo-title{
