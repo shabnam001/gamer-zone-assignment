@@ -294,4 +294,11 @@ nav h1{
     font-size: 18px;
     font-weight: 600;
 }
+.social-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 70px;
+}
 /*footer styles ends*/
